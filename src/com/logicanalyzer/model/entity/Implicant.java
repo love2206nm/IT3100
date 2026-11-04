@@ -66,6 +66,26 @@ public class Implicant {
         return minterms.contains(tam);
     }
 
+    public String getMask() {
+        return mask;
+    }
+
+    public Set<Integer> getMinterms() {
+        return minterms;
+    }
+
+    public boolean isTicked() {
+        return ticked;
+    }
+
+    public void setTicked(boolean ticked) {
+        this.ticked = ticked;
+    }
+
+    public int getOnesCount() {
+        return onesCount;
+    }
+
     @Override // ghi de tu java.object(class goc)
     public boolean equals(Object o) {
         if (this == o)

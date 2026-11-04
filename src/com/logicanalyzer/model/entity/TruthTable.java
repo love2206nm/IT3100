@@ -17,8 +17,7 @@ public class TruthTable {
     }
 
     public int getRowCount() {
-        return (int) (1 << this.numVariables);
-
+        return 1 << this.numVariables;
     }
 
     public int getOutputAt(int index) {
