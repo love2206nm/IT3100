@@ -125,8 +125,8 @@ Tạo constructor nhận đầy đủ các trường trên và các phương th�
 ---
 
 ## 3. Checklist hoàn thành Task 1
-- [ ] Tạo file `ExpressionType.java` trong `com.logicanalyzer.model.entity`.
-- [ ] Tạo file `Implicant.java`, cài đặt đầy đủ `canCombineWith()`, `combineWith()`, `equals()` và `hashCode()`.
-- [ ] Tạo file `TruthTable.java` với kiểm tra dữ liệu chặt chẽ và hàm `getMintermsWithOutput()`.
-- [ ] Tạo file `QMResult.java` đóng gói kết quả.
-- [ ] Chạy `javac` kiểm tra cú pháp không có lỗi.
+- [x] Tạo file `ExpressionType.java` trong `com.logicanalyzer.model.entity`.
+- [x] Tạo file `Implicant.java`, cài đặt đầy đủ `canCombineWith()`, `combineWith()`, `equals()` và `hashCode()`.
+- [x] Tạo file `TruthTable.java` với kiểm tra dữ liệu chặt chẽ và hàm `getMintermsWithOutput()`.
+- [x] Tạo file `QMResult.java` đóng gói kết quả.
+- [x] Chạy `javac` kiểm tra cú pháp không có lỗi.

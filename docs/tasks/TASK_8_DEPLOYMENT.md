@@ -23,7 +23,7 @@ Mở PowerShell tại thư mục gốc dự án (`C:\Users\Hai Nam\IT3100`):
 if (-not (Test-Path "bin")) { New-Item -ItemType Directory -Path "bin" }
 
 # 2. Biên dịch toàn bộ file .java trong src
-Get-ChildItem -Path "src/java" -Filter "*.java" -Recurse | ForEach-Object { $_.FullName } | Out-File -Encoding ASCII "sources.txt"
+Get-ChildItem -Path "src" -Filter "*.java" -Recurse | ForEach-Object { $_.FullName } | Out-File -Encoding ASCII "sources.txt"
 javac -encoding UTF-8 -d bin @sources.txt
 Remove-Item "sources.txt"
 ```
